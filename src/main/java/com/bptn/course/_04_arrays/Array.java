@@ -17,8 +17,7 @@ public class Array {
 //Updating last element of the array using length property
 		myArray[myArray.length-1] = 130;
 		System.out.println("Updated last element: " + myArray[myArray.length-1]);
-//for loop to print values from 1 to 10
-		for(int i =; i<= 10 ;i++)
+
 		
 	}
 }
