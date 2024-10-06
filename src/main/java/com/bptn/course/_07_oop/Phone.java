@@ -73,7 +73,7 @@ public class Phone {
 				myObj1.sendTextMessage(); //accessing the instance method using the object- objectName.instanceMethodName()
 
 				
-				System.out.println(myObj1);
+				System.out.println(myObj1);//what happens when you try to call just the object without the instance variables.
 	}
 
 }
