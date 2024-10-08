@@ -2,7 +2,7 @@ package com.bptn.course._16_javacollection_list._arraylist_coding_activities;
 
 import java.util.*;  // import all classes in this package.
 
-public class listGetSet {
+public class ListGetSet {
 	
    public static void main(String[] args) {
 	   
