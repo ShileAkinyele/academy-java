@@ -46,3 +46,16 @@ public class LinkedHashMapExample {
 	}
 
 }
+
+//Note 
+//when it overrides it maintains the first insertion order of the previous key value pair position but the values get updated.
+
+
+//Major key takeaways:
+//1. Does it preserve insertion order? Yes
+//2. Does keys allow null values?  Yes it allows max one null value
+//3. Does values allow null value?   Yes values can consist of null value(-Multiple null value similar to List)
+//4. Does keys allow duplicates?  if we try to add a key once again, it overrides the value rather than creating a new <K,V> pair
+//and maintains the order of the first key-value
+//5. Does values allow duplicates? Yes
+
