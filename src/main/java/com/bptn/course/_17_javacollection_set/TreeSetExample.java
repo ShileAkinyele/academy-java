@@ -20,7 +20,7 @@ public class TreeSetExample {
 		treeSet.add("banana");
 		treeSet.add("mango");
 		treeSet.add("apple");
-		//treeSet.add(null);
+		//treeSet.add(null); does not allow null values, throws a null pointer exception.
 		
 		//printing out the values 
 				
@@ -28,3 +28,7 @@ public class TreeSetExample {
 	}
 
 }
+
+//preserves the natural order of insertion 
+//does not allow duplication 
+//does not allow null values 
